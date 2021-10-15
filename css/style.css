@@ -16,6 +16,11 @@ body {
 #area-logo, #area-menu {
     padding: 10px;
 }
+#area-principal {
+}
+#area-postagens {
+    width: 600px;
+}
 a {
     text-decoration: none;
 }

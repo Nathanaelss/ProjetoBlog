@@ -2,33 +2,98 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-size: 1em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #e6e6e6;
+    width: 100%;
 }
+
 #area-cabecalho {
     background-color: #f7b600;
-    padding: 15px;
+    padding: 25px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
 #area-logo, #area-menu {
     padding: 10px;
+    font-weight: 900;
 }
+
 #area-principal {
+    width: 53%;
+    margin: 0 auto;
+    padding: 15px;
 }
+
 #area-postagens {
-    width: 600px;
+    width: 70% ;
+    float: left;
 }
+
+
+.postagem{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+#menu-lateral{
+    width: 24.4%;
+    float: right;
+}
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.linkalone a:hover {
+    text-decoration: underline;
+}
+
+.linkalone2 a:hover {
+    text-decoration: underline;
+}
+
+.conteudo-lateral2{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+#Rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
 a {
     text-decoration: none;
 }
-a:link, a:visited {
+#area-cabecalho a:link, #area-cabecalho a:visited {
     color: #FFF;
     padding: 8px 12px;
 }
-a:hover{
+#area-cabecalho a:hover{
+    color: #f7b600;
+    background: #FFF;
+}
+.postagem a:hover{
+    color: #f7b600;
+    background: #FFF;
+    text-decoration: underline;
+}
+#menu-lateral a:hover{
     color: #f7b600;
     background: #FFF;
 }
@@ -36,6 +101,25 @@ h1 {
     color: #4e4e4e;
     font-size: 2.5em;
 }
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #f7b600;
+    background: rgb(134, 65, 65);
+    padding: 6px;
+    margin-bottom: 10px;
+}
 .branco {
     color: white;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+p {
+    text-align: justify;
 }

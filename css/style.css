@@ -7,12 +7,11 @@ body {
     font-size: 1em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #e6e6e6;
-    width: 100%;
 }
 
 #area-cabecalho {
     background-color: #f7b600;
-    padding: 25px;
+    padding: 15px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -23,30 +22,29 @@ body {
 }
 
 #area-principal {
-    width: 53%;
+    width: 930px;
     margin: 0 auto;
     padding: 15px;
 }
 
 #area-postagens {
-    width: 70% ;
+    width: 660px ;
     float: left;
 }
 
 
 .postagem{
-    width: 100%;
     padding: 20px;
     margin-bottom: 20px;
     background: white;
 }
 #menu-lateral{
-    width: 24.4%;
+    width: 240px;
     float: right;
 }
 .conteudo-lateral {
     background: white;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -60,13 +58,14 @@ body {
 
 .conteudo-lateral2{
     background: white;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
     text-decoration: none;
+    font-size: 0.8em;
 }
 
-.postagem-lateral{
-    font-size: 0.8em;
+.postagem-lateral {
+    font-size: 0.7em;
     padding: 5px;
 }
 
@@ -97,6 +96,7 @@ a {
     color: #f7b600;
     background: #FFF;
 }
+
 h1 {
     color: #4e4e4e;
     font-size: 2.5em;

@@ -10,21 +10,30 @@
 <body>
     <div id="area-cabecalho">
         <div id="area-logo">
-            <h1>Nathan<span class="branco">Blog</span></h1>
+            <script>
+                document.write('<h1>Nathan<span class="branco">Blog</span></h1>')
+            </script>
         </div>
         <div id="area-menu">
-            <a href="index.html" class="selecionar">Home</a>
-            <a href="jogos.html" class="selecionar">Jogos</a>
-            <a href="celulares.html" class="selecionar">Celulares</a>
-            <a href="informatica.html" class="selecionar">Informática</a>
-            <a href="eletronicos.html" class="selecionar">Eletrônicos</a>
+            <script>
+                document.write(
+            '<a href="index.html" class="selecionar">Home</a>',
+            '<a href="jogos.html" class="selecionar">Jogos</a>',
+            '<a href="celulares.html" class="selecionar">Celulares</a>',
+            '<a href="informatica.html" class="selecionar">Informática</a>',
+            '<a href="eletronicos.html" class="selecionar">Eletrônicos</a>'
+            )
+            </script>
+           
         </div>
     </div>
     <div id="area-principal">
         <div id="menu-lateral">
 
             <div class="conteudo-lateral">
-                <h3>Postagens recentes</h3>
+                <script>
+                    document.write('<h3>Postagens recentes</h3>')
+                </script>              
                 <div class="postagem-lateral">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis malesuada ultrices.
                         Fusce justo justo, commodo et sem at, fringilla congue lectus. Donec lectus lacus, aliquam quis
@@ -44,9 +53,9 @@
                 </div>
             </div>
             <div class="conteudo-lateral2">
-                <h3>
-                    Categorias
-                </h3>
+                <script>
+                    document.write("<h3> Categorias </h3>")
+                </script>
                 <div style="font-size: 1.2em">
                     <a href="">Jogos</a><br>
                     <a href="">Celulares</a><br>
